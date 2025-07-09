@@ -2,6 +2,32 @@
 
 A powerful, modular Python application for tracking and analyzing stock prices with advanced features including data visualization, caching, and interactive CLI interface.
 
+## Images
+
+### Main Application Interface
+![Interactive Menu](images/interactive_menu.png)
+*The main interactive menu showing all available options*
+
+### Stock Analysis Example
+![Stock Analysis](images/stock_analysis.png)
+*Sample stock price comparison chart for AAPL, MSFT, GOOGL, and TSLA*
+
+### Statistics Display
+![Statistics Table](images/statistics_table.png)
+*Comprehensive statistics table showing current prices, changes, and volatility*
+
+### Performance Comparison
+![Performance Chart](images/performance_comparison.png)
+*Normalized performance comparison chart (base=100) for multiple stocks*
+
+### Export Example
+![Exported Plot](images/exported_plot.png)
+*High-quality exported plot showing stock price trends*
+
+### Project Structure
+![Project Structure](images/project_structure.png)
+*File structure and organization of the modular codebase*
+
 ## Project Structure
 
 ```
