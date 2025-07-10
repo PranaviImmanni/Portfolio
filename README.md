@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Enhanced Stock Tracker
 
 A powerful, modular Python application for tracking and analyzing stock prices with advanced features including data visualization, caching, and interactive CLI interface.
@@ -288,3 +289,114 @@ python main.py --symbols AAPL --start 2023-01-01 --end 2023-12-31 --plot
 # Use saved favorites
 python main.py --favorites --export favorites_analysis.png
 ``` 
+=======
+# Portfolio
+
+Welcome to my portfolio showcasing data analysis, programming, and technical projects. This repository contains a collection of projects demonstrating various skills in Python, SQL, data analysis, and software development.
+
+## Projects
+
+### 📈 [Stock Tracker](stock-tracker/)
+A professional-grade stock analysis application built with Python. Features include real-time data fetching, interactive CLI, data visualization, and modular architecture.
+
+**Technologies:** Python, yfinance, matplotlib, pandas, modular architecture
+**Key Features:**
+- Real-time stock data from Yahoo Finance
+- Interactive command-line interface
+- Data caching and export functionality
+- Comprehensive statistics and visualizations
+- Professional plotting with matplotlib
+
+### 🎵 [SQL Music Analysis](sql-music-analysis/)
+Database analysis project using SQL to explore music data patterns, trends, and insights.
+
+**Technologies:** SQL, Database Management, Data Analysis
+**Key Features:**
+- Complex SQL queries and analysis
+- Music industry data exploration
+- Statistical insights and trends
+- Sample datasets for demonstration
+
+### 🧹 [Data Cleaning Project](data-cleaning-project/)
+Jupyter notebook demonstrating data cleaning techniques, preprocessing, and quality assurance.
+
+**Technologies:** Python, Jupyter, pandas, data preprocessing
+**Key Features:**
+- Data quality assessment
+- Cleaning and preprocessing techniques
+- Missing value handling
+- Data validation and transformation
+
+## Skills Demonstrated
+
+### Programming Languages
+- **Python**: Advanced data analysis, web scraping, automation
+- **SQL**: Database queries, data manipulation, analysis
+- **Jupyter**: Interactive data exploration and documentation
+
+### Data Analysis & Visualization
+- **Statistical Analysis**: Descriptive statistics, trend analysis
+- **Data Visualization**: Matplotlib, interactive charts
+- **Data Cleaning**: Preprocessing, quality assurance
+- **Real-time Data**: API integration, live data feeds
+
+### Software Development
+- **Modular Architecture**: Clean, maintainable code structure
+- **Command Line Interfaces**: User-friendly CLI applications
+- **Documentation**: Comprehensive README files and examples
+- **Version Control**: Git workflow and project management
+
+### Tools & Technologies
+- **Data Sources**: Yahoo Finance API, SQL databases
+- **Development Tools**: Git, Jupyter Notebooks, VS Code
+- **Libraries**: pandas, matplotlib, yfinance, numpy
+
+## Getting Started
+
+Each project contains its own README with detailed setup and usage instructions. To get started:
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/PranaviImmanni/Portfolio.git
+   cd Portfolio
+   ```
+
+2. **Explore individual projects**
+   - [Stock Tracker](stock-tracker/) - Run `python main.py` for interactive analysis
+   - [SQL Music Analysis](sql-music-analysis/) - Execute SQL queries on sample data
+   - [Data Cleaning Project](data-cleaning-project/) - Open Jupyter notebooks
+
+3. **Install dependencies** as needed for each project
+
+## Project Highlights
+
+### Stock Tracker
+- **Professional-grade application** with modular architecture
+- **Real-time data integration** from financial APIs
+- **Interactive user interface** with comprehensive features
+- **Data persistence** and export capabilities
+
+### SQL Music Analysis
+- **Complex database queries** and analysis
+- **Music industry insights** and trend analysis
+- **Statistical modeling** and data exploration
+
+### Data Cleaning Project
+- **Data quality assessment** and improvement
+- **Preprocessing techniques** and best practices
+- **Automated cleaning workflows**
+
+## Contact & Links
+
+- **GitHub**: [PranaviImmanni](https://github.com/PranaviImmanni)
+- **LinkedIn**: [Your LinkedIn Profile]
+- **Email**: [your.email@example.com]
+
+## License
+
+This portfolio is open source and available under the MIT License. Individual projects may have their own licensing terms.
+
+---
+
+*This portfolio demonstrates my passion for data analysis, programming, and creating practical solutions to real-world problems.* 
+>>>>>>> 4f86642 (Add portfolio structure with SQL and data cleaning projects)
