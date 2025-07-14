@@ -87,8 +87,6 @@ Stock Tracker enables users to fetch historical stock prices for multiple compan
 - The codebase is modular and well-documented, making it easy to add new features (e.g., technical indicators, new data sources, or advanced visualizations).
 - Contributions, suggestions, and bug reports are welcome! Please open an issue or submit a pull request.
 
-## License
-MIT License
 
 ---
 
