@@ -1,58 +1,99 @@
 # Customer Segmentation Project
 
-## Project Overview
-This project applies customer segmentation techniques to retail transaction data, enabling targeted marketing and business strategies. Using RFM (Recency, Frequency, Monetary) analysis and clustering algorithms, we identify distinct customer groups and provide actionable business insights.
+![Preview](reports/figures/clusters_plot.png)
 
-## Objective
-- Segment customers based on purchasing behavior
-- Uncover actionable insights for marketing and retention
-- Demonstrate end-to-end data science workflow: data cleaning, analysis, modeling, visualization, and reporting
+## Overview
+This project demonstrates end-to-end customer segmentation using real-world retail data. By applying RFM (Recency, Frequency, Monetary) analysis and clustering techniques, we identify actionable customer segments to drive targeted marketing and business strategies.
 
-## Tools Used
-- Python (pandas, numpy, scikit-learn, matplotlib, seaborn)
-- Jupyter Notebook
-- Streamlit (optional, for dashboard)
+## Objectives
+- Clean and preprocess raw retail transaction data
+- Calculate RFM metrics for each customer
+- Segment customers using KMeans clustering
+- Visualize and interpret customer segments
+- Provide business recommendations based on insights
 
-## How to Run the Code
-1. Place your raw dataset (e.g., `online_retail_II.csv`) in the `data/` folder as `raw_data.csv`.
-2. Run the scripts in `/src/` for data cleaning, RFM analysis, clustering, and visualizations.
-3. Explore the analysis in the Jupyter notebook: `notebooks/segmentation_analysis.ipynb`.
-4. (Optional) Launch the dashboard:
+## Data
+- **Source:** [UCI Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail) (`data/raw_data.csv`)
+- **Fields:** Invoice, StockCode, Description, Quantity, InvoiceDate, Price, Customer ID, Country
+- **Processed files:**
+  - `data/cleaned_data.csv`: Cleaned and preprocessed data
+  - `data/rfm_table.csv`: RFM metrics for each customer
+  - `data/rfm_clusters.csv`: RFM metrics with cluster labels
+
+## Methodology
+1. **Data Cleaning:** Remove duplicates, handle missing values, and standardize columns.
+2. **RFM Analysis:** Calculate Recency, Frequency, and Monetary value for each customer.
+3. **Clustering:** Use KMeans to segment customers based on RFM scores.
+4. **Visualization:** Generate plots to interpret and present customer segments.
+5. **Executive Summary:** Summarize findings and business recommendations in a PDF report.
+
+## How to Run
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **Place your raw data:**
+   - Save your dataset as `data/raw_data.csv`.
+3. **Run the analysis pipeline:**
+   - From the project root, run each script in order:
+     ```bash
+     python src/data_cleaning.py
+     python src/rfm_analysis.py
+     python src/clustering.py
+     python src/visualizations.py
+     ```
+4. **Explore the notebook:**
+   - Open `notebooks/segmentation_analysis.ipynb` in Jupyter for a step-by-step walkthrough.
+5. **View results:**
+   - Cleaned data and outputs in `data/`
+   - Figures in `reports/figures/`
+   - Executive summary in `reports/segmentation_summary.pdf`
+6. **(Optional) Launch the dashboard:**
    ```bash
    streamlit run dashboard/streamlit_app.py
    ```
-5. Review the executive summary in `/reports/segmentation_summary.pdf` and visualizations in `/reports/figures/`.
 
-## Key Business Insights
-- Identify high-value, at-risk, and loyal customer segments
-- Recommend targeted marketing strategies for each segment
-- Visualize customer distribution and segment characteristics
-
----
-
-## Directory Structure & File Descriptions
-
+## Project Structure
 ```
 customer-segmentation/
-├── README.md                # Project overview and instructions
 ├── data/
-│   ├── raw_data.csv         # Original data (real or simulated)
-│   └── cleaned_data.csv     # Data after preprocessing
+│   ├── raw_data.csv
+│   ├── cleaned_data.csv
+│   ├── rfm_table.csv
+│   └── rfm_clusters.csv
 ├── notebooks/
-│   └── segmentation_analysis.ipynb  # Walkthrough: RFM, clustering, viz, recommendations
-├── src/
-│   ├── data_cleaning.py     # Load, clean, format raw data
-│   ├── rfm_analysis.py      # Score customers (R, F, M)
-│   ├── clustering.py        # KMeans or other clustering
-│   └── visualizations.py    # Charts/plots
+│   └── segmentation_analysis.ipynb
 ├── reports/
-│   ├── segmentation_summary.pdf     # Executive summary (1-pager or slides)
+│   ├── segmentation_summary.pdf
 │   └── figures/
 │       ├── rfm_distribution.png
 │       ├── clusters_plot.png
 │       └── customer_segments_chart.png
-├── dashboard/ (optional)
-│   └── streamlit_app.py     # Interactive dashboard
-├── requirements.txt         # Python dependencies
-└── .gitignore               # Ignore patterns
+├── src/
+│   ├── data_cleaning.py
+│   ├── rfm_analysis.py
+│   ├── clustering.py
+│   └── visualizations.py
+├── dashboard/
+│   └── streamlit_app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
+
+## Tools Used
+- Python
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- Streamlit
+
+## Skills Demonstrated
+- Data Cleaning
+- RFM Analysis
+- Clustering
+- Business Analytics
+
+## Contact
+For questions or collaboration, contact [pranavi@immanni.com](mailto:pranavi@immanni.com) or connect on [LinkedIn](https://www.linkedin.com/in/pranavi-immanni-ab04a823b).
