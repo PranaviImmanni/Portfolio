@@ -1,4 +1,4 @@
-# Customer Segmentation Project
+# Customer Behavior Segmentation Project (Business Analytics)
 
 ![Preview](reports/figures/clusters_plot.png)
 
