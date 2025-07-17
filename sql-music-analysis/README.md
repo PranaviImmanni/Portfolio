@@ -26,28 +26,29 @@ sql-music-analysis/
 └── .gitignore
 ```
 
-## Features
+# 🎧 Spotify Music Industry SQL Analysis
 
-- Advanced SQL queries for music data analysis
-- Genre, artist, and feature trend exploration
-- Data cleaning and transformation scripts
-- Visualizations of key insights
-- Well-documented schema and analysis notes
+This project explores key business and artist trends in the music industry using SQL. It analyzes artist performance, album sales, genre dominance, and time-based trends to provide insight into the market dynamics of popular music.
 
-## Getting Started
-
-1. Set up your SQL database environment
-2. Import the schema from `schema/create_tables.sql`
-3. Load the sample data from `sample_data/high_popularity_spotify_data.csv`
-4. Run analysis scripts from the `sql/` directory
-
-## Analysis Examples
-
-- Genre energy and valence comparison
-- Artist performance and trends
-- Feature distribution over time
-- Exploratory queries for deeper insights
+> 💼 Designed as a consulting-style analytics case study using modular SQL development and structured reporting logic.
 
 ---
 
-*Part of the Portfolio collection showcasing SQL and data analysis skills.* 
+## 📌 Business Questions Answered
+
+- 🎤 Who are the top-selling artists by global album sales?
+- 🌍 How do artists perform by country and genre?
+- ⏳ How has music industry output evolved year-over-year?
+- 🧑‍🎤 What is the average album performance by artist debut year?
+- 🧹 How are songs cleaned, deduplicated, and made ready for analysis?
+
+---
+
+## 🧠 Key Features
+
+- Modular SQL workflows organized by purpose (artist, genre, trend, cleaning)
+- Professional schema and normalized table relationships
+- Structured exploratory queries for testing joins and coverage
+- Insight-ready queries usable in BI dashboards or executive reports
+
+---
