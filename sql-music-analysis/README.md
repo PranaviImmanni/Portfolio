@@ -30,7 +30,6 @@ sql-music-analysis/
 
 This project explores key business and artist trends in the music industry using SQL. It analyzes artist performance, album sales, genre dominance, and time-based trends to provide insight into the market dynamics of popular music.
 
-> 💼 Designed as a consulting-style analytics case study using modular SQL development and structured reporting logic.
 
 ---
 
