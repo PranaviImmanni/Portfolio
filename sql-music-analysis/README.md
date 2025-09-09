@@ -1,4 +1,4 @@
-# 🎵 Professional Spotify Data Analysis Project
+# 🎵 Professional Spotify Data Analysis Project (SQL)
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![SQL](https://img.shields.io/badge/SQL-Advanced-green.svg)](https://sql.org)
