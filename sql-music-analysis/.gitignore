@@ -9,4 +9,22 @@ __pycache__/
 *.png
 *.jpg
 *.jpeg
-*.ipynb 
+*.ipynb
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+
+# Cache files
+.cache
+.spotify_cache 
