@@ -1,1 +1,11 @@
-
+track_id,name,artist,played_at,popularity,danceability,energy,valence
+track_101,As It Was,Harry Styles,2024-01-15T10:30:00Z,92,0.696,0.436,0.558
+track_102,Unholy,Sam Smith,2024-01-15T10:25:00Z,88,0.705,0.436,0.558
+track_103,Anti-Hero,Taylor Swift,2024-01-15T10:20:00Z,91,0.586,0.436,0.558
+track_104,Flowers,Miley Cyrus,2024-01-15T10:15:00Z,89,0.677,0.696,0.696
+track_105,Kill Bill,SZA,2024-01-15T10:10:00Z,87,0.705,0.436,0.558
+track_106,Creepin',The Weeknd,2024-01-15T10:05:00Z,85,0.514,0.73,0.334
+track_107,Calm Down,Rema,2024-01-15T10:00:00Z,83,0.818,0.525,0.804
+track_108,Die For You,The Weeknd,2024-01-15T09:55:00Z,84,0.514,0.73,0.334
+track_109,Shirt,SZA,2024-01-15T09:50:00Z,86,0.705,0.436,0.558
+track_110,Rich Flex,Drake,2024-01-15T09:45:00Z,88,0.705,0.436,0.558

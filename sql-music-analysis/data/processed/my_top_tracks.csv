@@ -1,1 +1,11 @@
-
+track_id,name,artist,popularity,danceability,energy,valence,tempo,duration_ms
+track_001,Blinding Lights,The Weeknd,85,0.514,0.73,0.334,171.005,200040
+track_002,Watermelon Sugar,Harry Styles,82,0.761,0.525,0.775,95.977,174000
+track_003,Levitating,Dua Lipa,88,0.818,0.525,0.804,103.0,203040
+track_004,Good 4 U,Olivia Rodrigo,90,0.586,0.436,0.558,166.969,178000
+track_005,Stay,The Kid LAROI,87,0.591,0.436,0.407,169.98,141000
+track_006,Industry Baby,Lil Nas X,84,0.705,0.436,0.558,150.0,212000
+track_007,Heat Waves,Glass Animals,83,0.761,0.525,0.775,80.87,238000
+track_008,Peaches,Justin Bieber,81,0.677,0.696,0.696,90.03,198000
+track_009,Montero,Lil Nas X,86,0.705,0.436,0.558,150.0,137000
+track_010,Drivers License,Olivia Rodrigo,89,0.586,0.436,0.558,143.98,242000

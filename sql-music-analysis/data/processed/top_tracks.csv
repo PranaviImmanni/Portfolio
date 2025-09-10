@@ -1,1 +1,16 @@
-
+track_id,name,artist,popularity,danceability,energy,valence,tempo,acousticness,instrumentalness,liveness,speechiness
+track_201,Blinding Lights,The Weeknd,85,0.514,0.73,0.334,171.005,0.001,0.0,0.089,0.03
+track_202,Watermelon Sugar,Harry Styles,82,0.761,0.525,0.775,95.977,0.001,0.0,0.089,0.03
+track_203,Levitating,Dua Lipa,88,0.818,0.525,0.804,103.0,0.001,0.0,0.089,0.03
+track_204,Good 4 U,Olivia Rodrigo,90,0.586,0.436,0.558,166.969,0.001,0.0,0.089,0.03
+track_205,Stay,The Kid LAROI,87,0.591,0.436,0.407,169.98,0.001,0.0,0.089,0.03
+track_206,Industry Baby,Lil Nas X,84,0.705,0.436,0.558,150.0,0.001,0.0,0.089,0.03
+track_207,Heat Waves,Glass Animals,83,0.761,0.525,0.775,80.87,0.001,0.0,0.089,0.03
+track_208,Peaches,Justin Bieber,81,0.677,0.696,0.696,90.03,0.001,0.0,0.089,0.03
+track_209,Montero,Lil Nas X,86,0.705,0.436,0.558,150.0,0.001,0.0,0.089,0.03
+track_210,Drivers License,Olivia Rodrigo,89,0.586,0.436,0.558,143.98,0.001,0.0,0.089,0.03
+track_211,As It Was,Harry Styles,92,0.696,0.436,0.558,95.977,0.001,0.0,0.089,0.03
+track_212,Unholy,Sam Smith,88,0.705,0.436,0.558,150.0,0.001,0.0,0.089,0.03
+track_213,Anti-Hero,Taylor Swift,91,0.586,0.436,0.558,166.969,0.001,0.0,0.089,0.03
+track_214,Flowers,Miley Cyrus,89,0.677,0.696,0.696,90.03,0.001,0.0,0.089,0.03
+track_215,Kill Bill,SZA,87,0.705,0.436,0.558,150.0,0.001,0.0,0.089,0.03
