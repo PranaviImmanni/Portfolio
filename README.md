@@ -1,20 +1,20 @@
-# 🚀 Pranavi Immanni - Data Science Portfolio
+# Pranavi Immanni - Data Science Portfolio
 
 Welcome to my comprehensive data science portfolio! This repository showcases my expertise in data analysis, machine learning, and business intelligence through various real-world projects.
 
-## 👋 About Me
+## About Me
 
 I'm a **Data Science student** at San Jose State University with a passion for transforming raw data into actionable insights. My portfolio demonstrates proficiency in Python, SQL, machine learning, and data visualization.
 
 **Contact Information:**
-- 📧 Email: pranavi@immanni.com
-- 📱 Phone: (858) 683-4339
-- 💼 [LinkedIn](https://www.linkedin.com/in/pranavi-immanni-jrt/)
-- 🐙 [GitHub](https://github.com/PranaviImmanni)
+- Email: pranavi@immanni.com
+- Phone: (858) 683-4339
+- [LinkedIn](https://www.linkedin.com/in/pranavi-immanni-jrt/)
+- [GitHub](https://github.com/PranaviImmanni)
 
-## 🎯 Portfolio Overview
+## Portfolio Overview
 
-This portfolio contains **6 comprehensive data science projects** that demonstrate:
+This portfolio contains **5 comprehensive data science projects** that demonstrate:
 
 - **Advanced SQL Techniques** - Complex queries, database design, and optimization
 - **Machine Learning** - Clustering, classification, and predictive modeling
@@ -22,12 +22,11 @@ This portfolio contains **6 comprehensive data science projects** that demonstra
 - **API Integration** - Real-time data collection and processing
 - **Business Intelligence** - Actionable insights and recommendations
 
-## 📊 Data Science Projects
+## Data Science Projects
 
-### 🎵 **Spotify Music Analysis** (2 Projects)
+### **Spotify Music Analysis**
 **Technologies:** Python, SQLite, Spotify API, Machine Learning, Data Visualization
 
-#### 1. **Professional Spotify Analysis** (`Data_Science_Projects/Spotify_Music_Analysis_Project/`)
 - **Complete end-to-end data pipeline** with professional architecture
 - **Real-time Spotify API integration** with error handling and rate limiting
 - **Advanced SQL database design** with proper normalization and indexing
@@ -35,14 +34,7 @@ This portfolio contains **6 comprehensive data science projects** that demonstra
 - **Professional visualizations** and business intelligence reports
 - **Production-ready code** with comprehensive testing and documentation
 
-#### 2. **SQL Music Analysis** (`Data_Science_Projects/sql-music-analysis/`)
-- **Jupyter notebook-based analysis** with comprehensive SQL queries
-- **Database schema design** and data modeling
-- **Advanced analytics** including genre analysis and audio feature trends
-- **Interactive visualizations** and statistical analysis
-- **Complete dataset** with real Spotify data and sample data generation
-
-### 🛒 **Customer Behavior Segmentation**
+### **Customer Behavior Segmentation**
 **Technologies:** Python, RFM Analysis, K-means Clustering, Streamlit, Machine Learning
 
 - **RFM (Recency, Frequency, Monetary) analysis** for customer segmentation
@@ -51,7 +43,7 @@ This portfolio contains **6 comprehensive data science projects** that demonstra
 - **Actionable insights** for marketing strategy optimization
 - **Professional reports** with data-driven recommendations
 
-### 📈 **Stock Market Analysis**
+### **Stock Market Analysis**
 **Technologies:** Python, Financial Data, Data Visualization, Statistical Analysis
 
 - **Multi-stock performance analysis** (AAPL, GOOGL, MSFT, TSLA)
@@ -60,7 +52,7 @@ This portfolio contains **6 comprehensive data science projects** that demonstra
 - **Performance comparison** and risk assessment
 - **Automated data collection** and processing
 
-### 🎮 **Pokémon Statistical Analysis**
+### **Pokémon Statistical Analysis**
 **Technologies:** Python, Statistical Analysis, Data Visualization, EDA
 
 - **Comprehensive statistical analysis** of Pokémon dataset
@@ -69,7 +61,7 @@ This portfolio contains **6 comprehensive data science projects** that demonstra
 - **Data visualization** for pattern recognition
 - **Machine learning applications** for classification
 
-### 🎓 **Student Performance Management**
+### **Student Performance Management**
 **Technologies:** Python, Data Analysis, Educational Analytics, Visualization
 
 - **Student performance analysis** and academic insights
@@ -78,7 +70,7 @@ This portfolio contains **6 comprehensive data science projects** that demonstra
 - **Statistical analysis** of academic metrics
 - **Data-driven recommendations** for educational improvement
 
-## 🛠️ Technical Skills
+## Technical Skills
 
 ### **Programming Languages**
 - **Python** (Advanced) - pandas, numpy, scikit-learn, matplotlib, seaborn
@@ -102,16 +94,16 @@ This portfolio contains **6 comprehensive data science projects** that demonstra
 - **REST APIs** - Data integration and processing
 - **Google Colab** - Cloud-based analysis
 
-## 📈 Key Achievements
+## Key Achievements
 
-- **6 Comprehensive Projects** demonstrating end-to-end data science workflows
+- **5 Comprehensive Projects** demonstrating end-to-end data science workflows
 - **Advanced SQL Expertise** with complex queries and database optimization
 - **Machine Learning Implementation** including clustering and classification
 - **Professional Visualizations** suitable for business presentations
 - **API Integration** with real-time data collection and processing
 - **Business Intelligence** with actionable insights and recommendations
 
-## 🎯 Project Highlights
+## Project Highlights
 
 ### **Most Complex Project: Professional Spotify Analysis**
 - **2,000+ lines of code** with professional architecture
@@ -126,7 +118,7 @@ This portfolio contains **6 comprehensive data science projects** that demonstra
 - **Actionable recommendations** for marketing strategy
 - **Professional reporting** for stakeholder presentations
 
-## 🚀 Getting Started
+## Getting Started
 
 Each project includes:
 - **Comprehensive README** with setup instructions
@@ -135,7 +127,7 @@ Each project includes:
 - **Documentation** with code explanations
 - **Results and insights** with visualizations
 
-## 📞 Contact & Collaboration
+## Contact & Collaboration
 
 I'm always interested in:
 - **Data Science Opportunities** - Internships, projects, collaborations
@@ -145,6 +137,6 @@ I'm always interested in:
 
 ---
 
-**Ready to explore my data science journey?** 🚀 Start with any project that interests you, and feel free to reach out with questions or collaboration opportunities!
+**Ready to explore my data science journey?** Start with any project that interests you, and feel free to reach out with questions or collaboration opportunities!
 
 *Last Updated: January 2024*

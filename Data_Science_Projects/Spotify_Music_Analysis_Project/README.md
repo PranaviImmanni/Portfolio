@@ -1,8 +1,8 @@
-# 🎵 Spotify Music Analysis Project
+# Spotify Music Analysis Project
 
 A comprehensive data analysis platform that demonstrates advanced SQL techniques, real-time API integration, and business intelligence for music streaming analytics. This project showcases professional data science skills through the analysis of Spotify music data using Python, SQLite, and machine learning.
 
-## 📋 Project Overview
+## Project Overview
 
 The Spotify Music Analysis Project is a complete end-to-end data analysis solution that:
 
@@ -12,7 +12,7 @@ The Spotify Music Analysis Project is a complete end-to-end data analysis soluti
 - **Visualizes** insights through professional charts and dashboards
 - **Generates** actionable business intelligence reports
 
-## 🎯 What This Project Does
+##  What This Project Does
 
 ### 1. **Data Collection & Storage**
 - Integrates with Spotify Web API to collect real-time music data
@@ -39,7 +39,7 @@ The Spotify Music Analysis Project is a complete end-to-end data analysis soluti
 - Identifies trends and patterns in music consumption
 - Creates reports suitable for stakeholder presentations
 
-## 🚀 Key Features
+##  Key Features
 
 ### **Technical Capabilities**
 - **Real-time API Integration**: Spotify Web API with OAuth authentication
@@ -62,7 +62,7 @@ The Spotify Music Analysis Project is a complete end-to-end data analysis soluti
 - **Correlation Heatmaps**: Feature relationship visualization
 - **Tempo Distribution**: Track categorization by tempo
 
-## 📊 Sample Analysis Results
+##  Sample Analysis Results
 
 The project analyzes music data to answer questions like:
 
@@ -72,7 +72,7 @@ The project analyzes music data to answer questions like:
 - **What tempo categories are most common?** - Distribution of slow, medium, and fast tracks
 - **Which artists produce the most content?** - Track count analysis by artist
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Python 3.8+** - Core programming language
 - **SQLite** - Database management and storage
@@ -120,7 +120,7 @@ Spotify_Music_Analysis_Project/
     └── test_basic.py                 # Unit tests
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. **Installation**
 ```bash
@@ -154,7 +154,7 @@ python -m src.analysis.music_analyzer
 python -m src.visualization.plot_generator
 ```
 
-## 📈 What You'll Get
+##  What You'll Get
 
 ### **Data Analysis Results**
 - **Database**: SQLite database with artists, albums, and tracks
@@ -169,7 +169,7 @@ python -m src.visualization.plot_generator
 - Tempo distribution analysis
 - Comprehensive dashboard with multiple visualizations
 
-## 🔧 Customization
+##  Customization
 
 ### **Analysis Parameters**
 - Modify clustering parameters in `config.py`
@@ -183,7 +183,7 @@ python -m src.visualization.plot_generator
 - Modify sample data generation
 - Add new analysis metrics
 
-## 🧪 Testing
+##  Testing
 
 Run the test suite:
 ```bash
@@ -194,7 +194,7 @@ python -m pytest tests/
 python -m pytest tests/test_basic.py
 ```
 
-## 📚 Use Cases
+##  Use Cases
 
 This project is perfect for:
 
@@ -204,7 +204,7 @@ This project is perfect for:
 - **Learning Projects**: Understanding API integration and data analysis
 - **Business Presentations**: Professional visualizations and insights
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -212,11 +212,11 @@ This project is perfect for:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Spotify for providing the Web API
 - The open-source community for excellent Python libraries
@@ -224,4 +224,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Ready to analyze music data like a pro?** 🎵 Start with `python main.py` and explore the world of music analytics!
+**Ready to analyze music data like a pro?**  Start with `python main.py` and explore the world of music analytics!
