@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranavi Immanni - Data Science Student</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 2.2em;
+            font-weight: 600;
+        }
+        .header-info {
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #555;
+        }
+        .header-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .header-info a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section-title {
+            color: #2c3e50;
+            font-size: 1.4em;
+            font-weight: 600;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .subsection {
+            margin-bottom: 20px;
+        }
+        .subsection-title {
+            font-weight: 600;
+            color: #34495e;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        .date-location {
+            float: right;
+            color: #7f8c8d;
+            font-weight: normal;
+        }
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .skill-category {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .skill-category h4 {
+            margin: 0 0 8px 0;
+            color: #2c3e50;
+            font-size: 1em;
+        }
+        .skill-category ul {
+            margin: 0;
+            padding-left: 15px;
+        }
+        .skill-category li {
+            margin-bottom: 3px;
+            color: #555;
+        }
+        .project, .experience {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 4px solid #27ae60;
+        }
+        .project-title, .experience-title {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        .project-tech, .experience-company {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .project ul, .experience ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .project li, .experience li {
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        .certification {
+            background-color: #e8f5e8;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            border-left: 4px solid #27ae60;
+        }
+        .certification-title {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        .certification-source {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        @media print {
+            body { background-color: white; }
+            .container { box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Pranavi Immanni</h1>
+            <div class="header-info">
+                <p>(858) 683-4339 | <a href="mailto:pranavi@immanni.com">pranavi@immanni.com</a> | 
+                <a href="https://www.linkedin.com/in/pranavi-immanni-jrt/" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/PranaviImmanni" target="_blank">GitHub</a></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="subsection clearfix">
+                <div class="subsection-title">San Jose State University <span class="date-location">Aug 2023 – Dec 2026 | San Jose, CA</span></div>
+                <div><strong>Bachelor of Science in Data Science</strong></div>
+                <div><em>Dean's Scholar</em></div>
+                <div style="margin-top: 8px;"><strong>Relevant Coursework:</strong> Data Structures & Algorithms, Python Programming, Java, R Programming, Statistical Analysis, SQL Database Management, Discrete Mathematics, Machine Learning Fundamentals</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Data Science & Analytics</h4>
+                    <ul>
+                        <li>Python (pandas, NumPy, scikit-learn)</li>
+                        <li>R Programming</li>
+                        <li>Statistical Analysis</li>
+                        <li>Machine Learning</li>
+                        <li>Data Visualization</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Database & Big Data</h4>
+                    <ul>
+                        <li>SQL (MySQL, PostgreSQL)</li>
+                        <li>Database Design</li>
+                        <li>Data Processing Pipelines</li>
+                        <li>ETL Operations</li>
+                        <li>Big Data Concepts</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Visualization & Tools</h4>
+                    <ul>
+                        <li>Tableau</li>
+                        <li>Matplotlib & Seaborn</li>
+                        <li>Excel Advanced Functions</li>
+                        <li>Streamlit</li>
+                        <li>Jupyter Notebooks</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Development & Tools</h4>
+                    <ul>
+                        <li>Git Version Control</li>
+                        <li>PyCharm, VS Code</li>
+                        <li>Anaconda Environment</li>
+                        <li>IntelliJ IDEA</li>
+                        <li>Agile Methodologies</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Key Projects</h2>
+            
+            <div class="project">
+                <div class="project-title">Professional Spotify Music Analysis Platform</div>
+                <div class="project-tech">Python, SQL, Spotify Web API, Data Visualization, Google Colab</div>
+                <ul>
+                    <li><strong>Architected</strong> a comprehensive data pipeline integrating Spotify Web API with SQLite database for real-time music data collection and analysis</li>
+                    <li><strong>Designed</strong> normalized database schema with proper indexing and relationships to optimize query performance for large datasets</li>
+                    <li><strong>Developed</strong> advanced SQL queries using CTEs, window functions, and complex aggregations to extract actionable business insights</li>
+                    <li><strong>Created</strong> interactive visualizations and professional reports demonstrating music consumption patterns, genre trends, and artist performance metrics</li>
+                    <li><strong>Built</strong> Google Colab-compatible notebook with sample data generation for immediate demonstration and portfolio presentation</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-title">Customer Behavior Segmentation & RFM Analysis</div>
+                <div class="project-tech">Python, Machine Learning, Streamlit, scikit-learn, Data Visualization</div>
+                <ul>
+                    <li><strong>Implemented</strong> RFM (Recency, Frequency, Monetary) analysis framework to segment customers into actionable behavioral groups</li>
+                    <li><strong>Applied</strong> K-means clustering algorithms to identify distinct customer segments and optimize marketing strategies</li>
+                    <li><strong>Developed</strong> interactive Streamlit dashboard providing real-time business intelligence and customer insights</li>
+                    <li><strong>Generated</strong> comprehensive reports with data-driven recommendations for stakeholder decision-making</li>
+                    <li><strong>Utilized</strong> pandas, scikit-learn, matplotlib, and seaborn for data processing, modeling, and visualization</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-title">Gym Management System & Data Analytics</div>
+                <div class="project-tech">Python, SQL, Database Design, Data Integration</div>
+                <ul>
+                    <li><strong>Engineered</strong> integrated Python-SQL system for comprehensive gym member data management and analytics</li>
+                    <li><strong>Designed</strong> efficient database workflows for membership tracking, attendance monitoring, and financial reporting</li>
+                    <li><strong>Optimized</strong> database operations for high-performance data storage, retrieval, and real-time reporting</li>
+                    <li><strong>Collaborated</strong> on system testing, feature refinement, and user experience optimization</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="experience">
+                <div class="experience-title">Data & Research Intern</div>
+                <div class="experience-company">STEM-Away | Remote | July 2020 – August 2020</div>
+                <ul>
+                    <li><strong>Developed</strong> innovative vaping detection system achieving <span class="highlight">30% reduction in response time</span> through advanced data analysis and Quartus prototyping</li>
+                    <li><strong>Led</strong> international collaboration with 7-member team across multiple time zones, delivering project milestones on schedule</li>
+                    <li><strong>Conducted</strong> comprehensive research on vaping trends among high school and college demographics, presenting findings in weekly stakeholder updates</li>
+                    <li><strong>Leveraged</strong> G-Suite, Slack, Quartus, and Excel for project management, team communication, and data analysis workflows</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Certifications & Professional Development</h2>
+            <div class="certification">
+                <div class="certification-title">SQL Essential Training</div>
+                <div class="certification-source">LinkedIn Learning</div>
+            </div>
+            <div class="certification">
+                <div class="certification-title">Data Science Fundamentals</div>
+                <div class="certification-source">San Jose State University</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Core Competencies</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 10px;">
+                <div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px;">
+                    <h4 style="margin: 0 0 8px 0; color: #2c3e50;">Analytical Skills</h4>
+                    <ul style="margin: 0; padding-left: 15px;">
+                        <li>Statistical Analysis</li>
+                        <li>Data Mining</li>
+                        <li>Pattern Recognition</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+                <div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px;">
+                    <h4 style="margin: 0 0 8px 0; color: #2c3e50;">Communication</h4>
+                    <ul style="margin: 0; padding-left: 15px;">
+                        <li>Technical Writing</li>
+                        <li>Data Storytelling</li>
+                        <li>Presentation Skills</li>
+                        <li>Cross-functional Collaboration</li>
+                    </ul>
+                </div>
+                <div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px;">
+                    <h4 style="margin: 0 0 8px 0; color: #2c3e50;">Professional</h4>
+                    <ul style="margin: 0; padding-left: 15px;">
+                        <li>Time Management</li>
+                        <li>Adaptability</li>
+                        <li>Continuous Learning</li>
+                        <li>Attention to Detail</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
