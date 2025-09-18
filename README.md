@@ -249,8 +249,5 @@ I'm always interested in:
 
 ---
 
-**⭐ Star this repository if you found it helpful!**
-
-*Last Updated: January 2024 | Made with ❤️ by Pranavi Immanni*
 
 </div>
