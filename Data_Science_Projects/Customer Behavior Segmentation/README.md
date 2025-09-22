@@ -1,336 +1,238 @@
-# 👥 Customer Behavior Segmentation Analysis
+# Customer Behavior Segmentation Analysis
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![Machine Learning](https://img.shields.io/badge/ML-Scikit--learn-orange.svg)](https://scikit-learn.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)]()
+A comprehensive customer segmentation project using RFM (Recency, Frequency, Monetary) analysis with MySQL database integration and Power BI dashboard creation.
 
-## 🎯 Project Overview
+## Project Overview
 
-A comprehensive customer segmentation project that demonstrates advanced RFM (Recency, Frequency, Monetary) analysis and machine learning clustering techniques. This project showcases end-to-end customer analytics from data preprocessing to actionable business insights and interactive dashboard development.
+This project demonstrates advanced customer analytics by:
+- Loading customer transaction data into MySQL database
+- Performing RFM analysis using SQL queries
+- Creating customer segments based on behavioral patterns
+- Building interactive Power BI dashboards
+- Generating actionable business insights
 
-## 🚀 Key Features
+## Features
 
-- **📊 RFM Analysis**: Advanced customer segmentation using Recency, Frequency, Monetary metrics
-- **🤖 Machine Learning**: K-means clustering for customer segment identification
-- **📈 Interactive Dashboard**: Streamlit-based business intelligence dashboard
-- **📋 Business Insights**: Actionable recommendations for marketing strategies
-- **🔍 Data Visualization**: Professional charts and statistical analysis
-- **📊 Executive Reporting**: Comprehensive PDF reports for stakeholders
-- **🔧 Modular Design**: Clean, extensible codebase for easy customization
+### Data Management
+- **MySQL Database Integration** - Professional database design with proper indexing
+- **Data Validation** - Comprehensive data cleaning and validation
+- **SQL Views** - Pre-built views for easy Power BI integration
+- **RFM Analysis** - Complete Recency, Frequency, Monetary analysis
 
-## 🛠️ Technologies Used
+### Customer Segmentation
+- **11 Customer Segments** - From Champions to Lost customers
+- **Demographic Analysis** - Age groups, gender distribution
+- **Category Preferences** - Spending patterns by product category
+- **Merchant Loyalty** - Customer loyalty to specific merchants
 
-| Technology | Purpose | Version |
-|------------|---------|---------|
-| **Python** | Core programming language | 3.8+ |
-| **pandas** | Data manipulation and analysis | Latest |
-| **scikit-learn** | Machine learning and clustering | Latest |
-| **matplotlib/seaborn** | Data visualization | Latest |
-| **Streamlit** | Interactive dashboard | Latest |
-| **numpy** | Numerical computations | Latest |
+### Visualization & Reporting
+- **Power BI Dashboards** - Interactive business intelligence dashboards
+- **Python Visualizations** - Comprehensive charts and analysis
+- **Insights Reports** - Automated report generation
+- **Export Capabilities** - Multiple export formats
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Customer Behavior Segmentation/
-├── 📊 dashboard/                          # Interactive dashboard
-│   └── streamlit_app.py                   # Streamlit web application
-├── 📁 data/                              # Data storage
-│   ├── raw_data.csv                      # Original dataset
-│   ├── cleaned_data.csv                  # Preprocessed data
-│   ├── rfm_table.csv                     # RFM metrics
-│   └── rfm_clusters.csv                  # Clustered segments
-├── 📊 reports/                           # Analysis outputs
-│   ├── figures/                          # Generated visualizations
-│   │   ├── clusters_plot.png
-│   │   ├── customer_segments_chart.png
-│   │   └── rfm_distribution.png
-│   └── segmentation_summary.pdf          # Executive summary
-├── 🐍 src/                               # Source code
-│   ├── data_cleaning.py                  # Data preprocessing
-│   ├── rfm_analysis.py                   # RFM calculations
-│   ├── clustering.py                     # ML clustering
-│   └── visualizations.py                 # Chart generation
-├── 📋 requirements.txt                   # Python dependencies
-└── 📖 README.md                          # This file
+├── README.md                          # Project documentation
+├── requirements.txt                   # Python dependencies
+├── main.py                           # Main execution script
+├── data/                             # Data directory
+│   └── customer_transactions.csv     # Customer transaction data
+├── sql/                              # SQL scripts
+│   └── database_setup.sql            # MySQL database schema
+├── src/                              # Source code
+│   ├── data_loader.py               # Data loading utilities
+│   └── analysis.py                  # Analysis and visualization
+├── powerbi/                          # Power BI resources
+│   ├── analysis_queries.sql         # Power BI SQL queries
+│   └── dashboard_guide.md           # Dashboard configuration guide
+└── reports/                          # Generated reports
+    ├── figures/                      # Generated visualizations
+    └── segmentation_insights.txt     # Insights report
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
-- Python 3.8 or higher
-- pip package manager
+- Python 3.8+
+- MySQL Server
+- Power BI Desktop (optional)
 
-### Installation
-
-1. **Clone the repository:**
+### 1. Installation
    ```bash
-   git clone https://github.com/PranaviImmanni/Portfolio.git
-   cd Portfolio/Customer\ Behavior\ Segmentation/
-   ```
-
-2. **Install dependencies:**
-   ```bash
+# Install dependencies
    pip install -r requirements.txt
+
+# Ensure MySQL server is running
+# Update database credentials in main.py
    ```
 
-3. **Prepare your data:**
+### 2. Database Setup
    ```bash
-   # Place your retail transaction data as 'data/raw_data.csv'
-   # Expected columns: Invoice, StockCode, Description, Quantity, 
-   #                   InvoiceDate, Price, Customer ID, Country
-   ```
-
-4. **Run the analysis pipeline:**
-     ```bash
-   # Step 1: Data cleaning
-     python src/data_cleaning.py
-   
-   # Step 2: RFM analysis
-     python src/rfm_analysis.py
-   
-   # Step 3: Customer clustering
-     python src/clustering.py
-   
-   # Step 4: Generate visualizations
-     python src/visualizations.py
-     ```
-
-5. **Launch the interactive dashboard:**
-   ```bash
-   streamlit run dashboard/streamlit_app.py
-   ```
-
-## 📊 Usage Examples
-
-### Data Processing Pipeline
-```python
-# Data cleaning and preprocessing
-from src.data_cleaning import clean_retail_data
-
-# Load and clean data
-raw_data = pd.read_csv('data/raw_data.csv')
-cleaned_data = clean_retail_data(raw_data)
+# Run the main script
+python main.py
 ```
 
-### RFM Analysis
-```python
-# Calculate RFM metrics
-from src.rfm_analysis import calculate_rfm_metrics
+This will:
+- Create MySQL database and tables
+- Load customer transaction data
+- Perform RFM analysis
+- Generate visualizations and reports
 
-# Generate RFM scores
-rfm_data = calculate_rfm_metrics(cleaned_data)
+### 3. Power BI Dashboard
+1. Open Power BI Desktop
+2. Connect to MySQL database `customer_segmentation`
+3. Import views from `sql/database_setup.sql`
+4. Follow `powerbi/dashboard_guide.md` for dashboard setup
+
+## Customer Segments
+
+The analysis creates 11 distinct customer segments:
+
+| Segment | Description | Characteristics |
+|---------|-------------|-----------------|
+| **Champions** | Best customers | High R, F, M scores |
+| **Loyal Customers** | Regular buyers | Good R, F, M scores |
+| **Potential Loyalists** | Recent, infrequent | High R, low F, M |
+| **New Customers** | Recent first-time | High R only |
+| **Promising** | Recent, some frequency | Good R, F, low M |
+| **Need Attention** | Declining frequency | Low R, good F, M |
+| **About to Sleep** | Low recent activity | Low R, F, good M |
+| **At Risk** | High value, low recency | Low R, good M |
+| **Cannot Lose Them** | High value, very low activity | Very low R, F, high M |
+| **Lost** | No recent activity | Low R, F, M |
+| **Others** | Mixed patterns | Various combinations |
+
+## SQL Analysis
+
+### RFM Metrics Calculation
+```sql
+-- Recency (days since last transaction)
+SELECT CustomerID,
+       DATEDIFF(CURDATE(), MAX(Date)) AS Recency
+FROM Transactions
+GROUP BY CustomerID;
+
+-- Frequency (number of transactions)
+SELECT CustomerID,
+       COUNT(*) AS Frequency
+FROM Transactions
+GROUP BY CustomerID;
+
+-- Monetary (total spend)
+SELECT CustomerID,
+       SUM(TransactionAmount) AS Monetary
+FROM Transactions
+GROUP BY CustomerID;
 ```
 
-### Customer Clustering
-```python
-# Perform K-means clustering
-from src.clustering import perform_customer_clustering
-
-# Identify customer segments
-segments = perform_customer_clustering(rfm_data)
+### Customer Segmentation
+```sql
+-- Complete customer analysis
+SELECT 
+    cs.CustomerID,
+    d.AgeGroup,
+    d.Gender,
+    cs.CustomerSegment,
+    cs.Recency,
+    cs.Frequency,
+    cs.Monetary
+FROM Customer_Segments cs
+JOIN Demographics_View d ON cs.CustomerID = d.CustomerID;
 ```
 
-### Interactive Dashboard
-```python
-# Launch Streamlit dashboard
-import streamlit as st
+## Power BI Dashboard Features
 
-# Dashboard provides:
-# - Customer segment overview
-# - RFM distribution analysis
-# - Interactive filtering
-# - Business recommendations
+### Page 1: Customer Segmentation Overview
+- **KPI Cards**: Total customers, revenue, average transaction value
+- **Pie Chart**: Customer distribution by segment
+- **Bar Chart**: Average spending by segment
+
+### Page 2: Demographic Insights
+- **Matrix**: Segments vs age groups
+- **Bar Chart**: Gender distribution across segments
+- **Scatter Plot**: Age vs spending by segment
+
+### Page 3: Category Preferences
+- **Heatmap**: Spending by segment and category
+- **Bar Chart**: Top categories by segment
+
+### Page 4: Merchant Loyalty
+- **Tree Map**: Merchant revenue by segment
+- **Table**: Top merchants by customer segment
+
+## Business Insights
+
+### Key Metrics
+- **Customer Lifetime Value** - Total monetary value per customer
+- **Purchase Frequency** - Average transactions per customer
+- **Recency Analysis** - Days since last purchase
+- **Segment Performance** - Revenue and customer count by segment
+
+### Actionable Recommendations
+1. **Champions**: Maintain engagement, offer premium products
+2. **Loyal Customers**: Increase frequency with loyalty programs
+3. **At Risk**: Win-back campaigns, special offers
+4. **New Customers**: Onboarding programs, welcome offers
+5. **Lost**: Re-engagement campaigns, survey feedback
+
+## Technical Implementation
+
+### Database Design
+- **Normalized Schema** - Proper table relationships
+- **Indexing** - Optimized for query performance
+- **Views** - Pre-calculated metrics for Power BI
+- **Constraints** - Data validation and integrity
+
+### Analysis Pipeline
+1. **Data Loading** - CSV to MySQL with validation
+2. **RFM Calculation** - SQL-based metric computation
+3. **Segmentation** - Rule-based customer grouping
+4. **Visualization** - Python and Power BI charts
+5. **Reporting** - Automated insight generation
+
+## Configuration
+
+Update database credentials in `main.py`:
+```python
+config = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': 'your_password',  # Update this
+    'database': 'customer_segmentation'
+}
 ```
 
-## 📈 Analysis Capabilities
+## Output Files
 
-### 📊 RFM Analysis
-- **Recency**: Days since last purchase
-- **Frequency**: Number of transactions
-- **Monetary**: Total spending amount
-- **RFM Scoring**: 1-5 scale for each dimension
-- **Segment Classification**: Customer behavior categorization
+### Generated Reports
+- `reports/figures/customer_segmentation_overview.png`
+- `reports/figures/category_preferences_heatmap.png`
+- `reports/figures/gender_distribution.png`
+- `reports/segmentation_insights.txt`
 
-### 🤖 Machine Learning Clustering
-- **K-means Clustering**: Optimal cluster identification
-- **Elbow Method**: Optimal K selection
-- **Silhouette Analysis**: Cluster quality assessment
-- **Segment Profiling**: Detailed customer characteristics
+### Database Views
+- `Customer_Analysis` - Complete customer data
+- `Segment_Summary` - Segment statistics
+- `Category_View` - Category preferences
+- `Merchant_View` - Merchant loyalty
 
-### 📈 Business Intelligence
-- **Customer Lifetime Value**: CLV calculations and predictions
-- **Churn Risk Assessment**: Identify at-risk customers
-- **Marketing Recommendations**: Targeted campaign strategies
-- **Performance Metrics**: Segment profitability analysis
+## Contributing
 
-## 📊 Sample Output
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
 
-### Customer Segments
-![Customer Segments](reports/figures/customer_segments_chart.png)
+## License
 
-### RFM Distribution
-![RFM Distribution](reports/figures/rfm_distribution.png)
+This project is licensed under the MIT License.
 
-### Cluster Analysis
-![Cluster Plot](reports/figures/clusters_plot.png)
+## Acknowledgments
 
-## 🧪 Technical Implementation
-
-### RFM Calculation
-```python
-def calculate_rfm_metrics(data):
-    """
-    Calculate Recency, Frequency, Monetary metrics
-    """
-    # Recency: Days since last purchase
-    recency = data.groupby('CustomerID')['InvoiceDate'].max()
-    recency = (data['InvoiceDate'].max() - recency).dt.days
-    
-    # Frequency: Number of transactions
-    frequency = data.groupby('CustomerID')['Invoice'].nunique()
-    
-    # Monetary: Total spending
-    data['TotalAmount'] = data['Quantity'] * data['Price']
-    monetary = data.groupby('CustomerID')['TotalAmount'].sum()
-    
-    return pd.DataFrame({
-        'Recency': recency,
-        'Frequency': frequency,
-        'Monetary': monetary
-    })
-```
-
-### K-means Clustering
-```python
-def perform_customer_clustering(rfm_data):
-    """
-    Perform K-means clustering on RFM data
-    """
-    from sklearn.cluster import KMeans
-    from sklearn.preprocessing import StandardScaler
-    
-    # Standardize the data
-    scaler = StandardScaler()
-    rfm_scaled = scaler.fit_transform(rfm_data)
-    
-    # Find optimal number of clusters
-    optimal_k = find_optimal_clusters(rfm_scaled)
-    
-    # Perform clustering
-    kmeans = KMeans(n_clusters=optimal_k, random_state=42)
-    clusters = kmeans.fit_predict(rfm_scaled)
-    
-    return clusters
-```
-
-### Business Insights Generation
-```python
-def generate_business_insights(segments):
-    """
-    Generate actionable business recommendations
-    """
-    insights = {}
-    
-    for segment in segments:
-        if segment == 'Champions':
-            insights[segment] = 'Retain and reward these customers'
-        elif segment == 'Potential Loyalists':
-            insights[segment] = 'Encourage repeat purchases'
-        elif segment == 'At Risk':
-            insights[segment] = 'Win-back campaigns needed'
-        # ... additional segment insights
-    
-    return insights
-```
-
-## 🎯 Key Insights & Applications
-
-### 💼 Business Applications
-- **Customer Retention**: Identify and retain high-value customers
-- **Marketing Campaigns**: Targeted messaging for different segments
-- **Product Development**: Understand customer preferences
-- **Revenue Optimization**: Focus on profitable customer segments
-
-### 📊 Technical Skills Demonstrated
-- **Data Preprocessing**: Cleaning and transforming retail data
-- **RFM Analysis**: Advanced customer segmentation techniques
-- **Machine Learning**: Unsupervised learning and clustering
-- **Business Intelligence**: Dashboard development and reporting
-- **Statistical Analysis**: Customer behavior pattern identification
-
-## 🔧 Customization & Extension
-
-### Adding New Metrics
-```python
-# Custom RFM variations
-def calculate_custom_rfm(data):
-    # Add your custom metrics here
-    # e.g., Product diversity, Brand loyalty, etc.
-    pass
-```
-
-### Advanced Clustering
-```python
-# Try different clustering algorithms
-from sklearn.cluster import DBSCAN, AgglomerativeClustering
-
-def advanced_clustering(data):
-    # DBSCAN for density-based clustering
-    # Hierarchical clustering for tree-like structures
-    pass
-```
-
-### Dashboard Enhancements
-```python
-# Add new dashboard features
-def add_custom_metrics():
-    # Real-time updates
-    # Advanced filtering
-    # Export functionality
-    pass
-```
-
-## 📚 Learning Outcomes
-
-This project demonstrates proficiency in:
-
-- **Customer Analytics**: RFM analysis and segmentation techniques
-- **Machine Learning**: Clustering algorithms and model evaluation
-- **Data Visualization**: Professional charts and interactive dashboards
-- **Business Intelligence**: Converting data insights into actionable strategies
-- **Python Development**: Clean, modular, and maintainable code
-- **Statistical Analysis**: Customer behavior pattern identification
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit:
-
-- **Algorithm Improvements**: Enhanced clustering or RFM techniques
-- **Dashboard Features**: New visualization or interaction capabilities
-- **Business Insights**: Additional analysis methodologies
-- **Documentation**: Improvements to guides and examples
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact & Support
-
-**Pranavi Immanni**  
-📧 **Email:** [pranavi@immanni.com](mailto:pranavi@immanni.com)  
-🔗 **LinkedIn:** [Pranavi Immanni](https://www.linkedin.com/in/pranavi-immanni-ab04a823b)  
-🐙 **GitHub:** [@PranaviImmanni](https://github.com/PranaviImmanni)
-
----
-
-## 🏆 Project Highlights
-
-- ✅ **Advanced Analytics**: Sophisticated RFM analysis and ML clustering
-- ✅ **Business Value**: Actionable insights for marketing and retention
-- ✅ **Interactive Dashboard**: Professional Streamlit application
-- ✅ **Production Ready**: Clean, documented, and extensible code
-- ✅ **Educational Value**: Demonstrates advanced customer analytics skills
-
-*This project showcases advanced customer segmentation, machine learning, and business intelligence skills suitable for senior data science and marketing analytics roles.*
+- Customer transaction data from Kaggle
+- RFM analysis methodology
+- Power BI for visualization capabilities
