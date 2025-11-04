@@ -9,6 +9,15 @@ This project demonstrates advanced computer vision and predictive analytics capa
 - **EV sensor analytics** with failure prediction to reduce maintenance downtime by 20%
 - **Interactive dashboards** and Flask APIs for engineering teams to make data-driven decisions, improving operational response time by 15%
 
+### 📁 Dataset
+
+This project uses the **EV Sensors: Driving Pattern Diagnostics (2020-24)** dataset from Kaggle, containing:
+- **172,800 hourly records** from 4 unique EVs (Rare, Moderate, Heavy, Regular users)
+- **5 years of data** (2020-2024) with 43,200 records per vehicle
+- Real-world telemetry data for fault detection and DTC forecasting
+
+See [Dataset Information](docs/dataset_info.md) for details on how to download and use the dataset.
+
 ## 🎯 Key Features
 
 - **92% Detection Accuracy** - YOLOv8-based real-time object detection for autonomous vehicles
